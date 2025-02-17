@@ -5,11 +5,11 @@ import Logo from "../../assets/logo/logo.png"
 
 function Header() {
   return (
-    <>
+    <header>
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
-          <Link>
+        <Navbar.Brand>
+          <Link to="/" className="logo">
           <img src={Logo} alt="Logo" className="img-fluid"/>
           </Link>
         </Navbar.Brand>
@@ -31,7 +31,7 @@ function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    </>
+    </header>
   );
 }
 
