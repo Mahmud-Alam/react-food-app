@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import Card from "../../components/Card.jsx";
+import Cards from "../../components/Cards.jsx";
 import Image1 from "../../assets/menu/burger-11.jpg";
 import Image2 from "../../assets/menu/burger-12.jpg";
 import Image3 from "../../assets/menu/burger-13.jpg";
@@ -94,7 +94,7 @@ function MenuSection() {
         </Row>
         <Row>
           {burgerData.map((cardData, index) => (
-            <Card 
+            <Cards 
             key={index} 
             image={cardData.image}
             title={cardData.title}
