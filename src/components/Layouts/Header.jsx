@@ -12,7 +12,7 @@ function Header() {
   const changeValueOnScroll = () => {
     const scrollValue = document?.documentElement?.scrollTop;
     scrollValue > 100 ? setNav(true) : setNav(false);
-    console.log(scrollValue);
+    // console.log(scrollValue);
   }
 
   addEventListener("scroll",changeValueOnScroll);
@@ -36,7 +36,7 @@ function Header() {
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             <Nav.Link as={Link} to="/cart">
               <div className="cart">
-                <i class="bi bi-bag fs-5"></i>
+                <i className="bi bi-bag fs-5"></i>
                 <em className="roundpoint">2</em>
               </div>
             </Nav.Link>
