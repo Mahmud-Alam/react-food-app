@@ -43,6 +43,10 @@ function PromotionSection() {
           </Row>
         </Container>
       </section>
+
+      {/* Backgroud Parallax Effect on Scrolling */}
+      <section className="bg_parallax_scroll">
+      </section>
     </>
   );
 }

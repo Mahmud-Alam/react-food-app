@@ -239,7 +239,24 @@
   list-style: none;
 }
 
+/* Backgroud Parallax Effect on Scrolling */
+.bg_parallax_scroll{
+  background: url("../assets/parallax/bg.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 700px;
+}
+
+
 /* Media Query Mobile Devices */
+
+@media (max-width: 1200px) {
+  /* Promotion Section */
+  .promotion_section h2{
+    font-size: 2.2rem;
+  }
+}
 
 @media (max-width: 992px) {
   /* About Section 2.0 */
@@ -253,6 +270,12 @@
 
   .about_box p{
     padding: 0;
+  }
+
+  /* Parallax Section */
+  .bg_parallax_scroll{
+    background-attachment: scroll;
+    height: 500px;
   }
 }
 
