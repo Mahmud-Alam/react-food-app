@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection"
 import AboutSection from "./AboutSection"
 import "../../styles/HomeStyle.css"
 import MenuSection from "./MenuSection"
+import PromotionSection from "./PromotionSection"
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <HeroSection/>
       <AboutSection/>
       <MenuSection/>
+      <PromotionSection/>
     </Layout>
   )
 }
