@@ -218,6 +218,26 @@
   font-size: 18px;
 }
 
+/* Promotion Section */
+.promotion_section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--light-grey);
+}
+
+.promotion_section h2{
+  font-size: 3.25rem;
+  margin-bottom: 25px;
+}
+
+.promotion_section p{
+  font-size: 1.12rem;
+}
+
+.promotion_section ul{
+  padding-left: 15px;
+  list-style: none;
+}
 
 /* Media Query Mobile Devices */
 

@@ -6,7 +6,7 @@ function PromotionSection() {
     <>
       <section className="promotion_section">
         <Container>
-          <Row>
+          <Row className="align-items-center">
             <Col lg={6} className="text-center mb-5 mb-lg-0">
               <img src={PromotionImage} alt="Promotion" className="img-fluid" />
             </Col>
