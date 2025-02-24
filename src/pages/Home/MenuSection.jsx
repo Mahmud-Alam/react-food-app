@@ -82,13 +82,12 @@ function MenuSection() {
     <section className="menu_section">
       <Container>
         <Row>
-          <Col lg={{ span: 8, offset: 2 }}>
+          <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
             <h2>Our Crazy Burgers</h2>
-            <p>
+            <p className="para">
               Get ready for a wild ride of flavors! Our crazy burgers are loaded
               with juicy patties, bold toppings, and irresistible sauces, all
-              stacked on a perfectly toasted bun. Whether you like it spicy,
-              cheesy, or extra meaty, we’ve got a burger that will blow your
+              stacked on a perfectly toasted bun. Whether you like it cheesy, or extra meaty, we’ve got a burger that will blow your
               mind!
             </p>
           </Col>
