@@ -1,7 +1,7 @@
 import { Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function Cards({ image, title, description, rating, price }) {
+function Cards({ image, title, description, rating, price, renderRatingIcons }) {
   return (
     <Col sm={6} lg={4} xl={3} className="mb-4">
       <Card className="overflow-hidden">
@@ -11,7 +11,7 @@ function Cards({ image, title, description, rating, price }) {
         <Card.Body>
 
           <div className="d-flex align-items-center justify-content-between">
-            <div className="item_rating">{rating}</div>
+            <div className="item_rating">{renderRatingIcons(rating)}</div>
             <div className="wishlist">
               <i className="bi bi-heart"></i>
             </div>
