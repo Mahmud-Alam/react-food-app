@@ -18,22 +18,22 @@ function BrandSection() {
               <Carousel.Caption>
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="brand_img">
-                        <img src={Brand1} className="image-fluid" alt="brand-1" />
+                        <img src={Brand1} className="img-fluid" alt="brand-1" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand2} className="image-fluid" alt="brand-2" />
+                        <img src={Brand2} className="img-fluid" alt="brand-2" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand3} className="image-fluid" alt="brand-3" />
+                        <img src={Brand3} className="img-fluid" alt="brand-3" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand4} className="image-fluid" alt="brand-4" />
+                        <img src={Brand4} className="img-fluid" alt="brand-4" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand5} className="image-fluid" alt="brand-5" />
+                        <img src={Brand5} className="img-fluid" alt="brand-5" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand6} className="image-fluid" alt="brand-6" />
+                        <img src={Brand6} className="img-fluid" alt="brand-6" />
                     </div>
                 </div>
               </Carousel.Caption>
@@ -42,22 +42,22 @@ function BrandSection() {
               <Carousel.Caption>
                 <div className="d-flex align-items-center justify-content-between">
                     <div className="brand_img">
-                        <img src={Brand3} className="image-fluid" alt="brand-3" />
+                        <img src={Brand3} className="img-fluid" alt="brand-3" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand4} className="image-fluid" alt="brand-4" />
+                        <img src={Brand4} className="img-fluid" alt="brand-4" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand5} className="image-fluid" alt="brand-5" />
+                        <img src={Brand5} className="img-fluid" alt="brand-5" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand6} className="image-fluid" alt="brand-6" />
+                        <img src={Brand6} className="img-fluid" alt="brand-6" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand7} className="image-fluid" alt="brand-7" />
+                        <img src={Brand7} className="img-fluid" alt="brand-7" />
                     </div>
                     <div className="brand_img">
-                        <img src={Brand8} className="image-fluid" alt="brand-8" />
+                        <img src={Brand8} className="img-fluid" alt="brand-8" />
                     </div>
                 </div>
               </Carousel.Caption>

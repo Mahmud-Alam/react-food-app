@@ -17,14 +17,14 @@ function ShopSection() {
                 Enjoy your favorite burgers anytime, anywhere! Download our mobile app today and get exclusive deals, easy ordering, and a special 20% discount on your first purchase. Deliciousness is just a tap away!
               </p>
               <Link to="">
-              <img src={IOS} alt="ios" className="image-fluid me-3"/>
+              <img src={IOS} alt="ios" className="img-fluid me-3 store"/>
               </Link>
               <Link to="">
-              <img src={Android} alt="android" className="image-fluid me-3"/>
+              <img src={Android} alt="android" className="img-fluid me-3 store"/>
               </Link>
             </Col>
             <Col lg={6}>
-            <img src={DownloadImage} alt="e-shop" className="image-fluid"/>
+            <img src={DownloadImage} alt="e-shop" className="img-fluid"/>
             </Col>
           </Row>
         </Container>

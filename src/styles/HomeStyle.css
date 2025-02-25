@@ -248,6 +248,62 @@
   height: 700px;
 }
 
+/* Shop Section */
+.shop_section{
+  padding: 100px 0 0;
+  background: var(--yellow);
+}
+
+.shop_section h4{
+  font-size: 2.375rem;
+  font-weight: 400;
+  color: var(--bg-coffee);
+}
+
+.shop_section h2{
+  font-size: 4.5rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--bg-coffee);
+}
+
+.shop_section p{
+  font-size: 1.125rem;
+  padding-right: 10px;
+  color: var(--bg-coffee);
+  margin-bottom: 40px;
+}
+
+.shop_section .store{
+  max-width: 40%;
+}
+
+.shop_section .e_shop{
+  text-align: center;
+}
+
+/* Brand Section */
+.brand_section{
+  padding: 70px 0 40px;
+  background: var(--light-grey);
+  overflow: hidden;
+}
+
+.brand_section .brand_img{
+  width: 180px;
+  height: auto;
+}
+
+.carousel.slide .carousel-inner{
+  overflow: unset;
+}
+
+.carousel.slide .carousel-inner .carousel-caption{
+  position: relative;
+  right: unset;
+  left: unset;
+}
+
 
 /* Media Query Mobile Devices */
 
@@ -288,5 +344,23 @@
   /* Menu section  */
   .menu_section .para{
     padding: 10px 0;
+  }
+
+  /* Shop Section */
+  .shop_section h4{
+    font-size: 1.8rem;
+  }
+
+  .shop_section h2{
+    font-size: 3.75rem;
+  }
+
+  .brand_section{
+    padding: 50px 0 10px;
+  }
+
+  .brand_section .brand_img{
+    width: 70px;
+    height: auto;
   }
 }
