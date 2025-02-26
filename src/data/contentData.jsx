@@ -1,3 +1,5 @@
+import heroBurger from "../assets/hero/hero-2.png";
+
 export const aboutSectionContent = {
   heading: "The burger tastes better when you eat it with your family",
   description:
@@ -11,8 +13,11 @@ export const heroSectionContent = {
   heading2: "With Onion",
   description:
     "Savor the perfect bite! Our new burger with onion is a juicy, flavor-packed delight, layered with fresh, crispy onions, premium beef, and a melt-in-your-mouth bun. A taste so good, you won’t want to share!",
-  price: "৳450",
-  image: "../../assets/hero/hero-2.png",
+  text1: "Only",
+  text2: "৳450",
+  image: heroBurger,
+  buttonText: "Order Now",
+  path: "/",
 };
 
 export const menuSectionContent = {
