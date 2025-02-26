@@ -304,6 +304,12 @@
   left: unset;
 }
 
+/* Review Section */
+.review_section{
+  padding: 80px 0 50px;
+  background: url("../assets/blog/reviews.jpg");
+}
+
 
 /* Media Query Mobile Devices */
 
