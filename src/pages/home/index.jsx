@@ -6,6 +6,7 @@ import PromotionSection from "../../components/home/PromotionSection"
 import ShopSection from "../../components/home/ShopSection"
 import BrandSection from "../../components/home/BrandSection"
 import "../../styles/HomeStyle.css"
+import ReviewSection from "../../components/home/ReviewSection"
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <PromotionSection/>
       <ShopSection/>
       <BrandSection/>
+      <ReviewSection/>
     </Layout>
   )
 }
