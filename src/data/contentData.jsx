@@ -24,6 +24,12 @@ export const menuSectionContent = {
   heading: "Our Crazy Burgers",
   description:
     "Get ready for a wild ride of flavors! Our crazy burgers are loaded with juicy patties, bold toppings, and irresistible sauces, all stacked on a perfectly toasted bun. Whether you like it cheesy, or extra meaty, we’ve got a burger that will blow your mind!",
+  cardHeading1: "Get Your Free",
+  cardHeading2: "Cheese Fries",
+  cardHeading3: "Cheese Burgers",
+  buttonText: "Learn More",
+  path1: "/",
+  path2: "/",
 };
 
 export const promotionSectionContent = {
