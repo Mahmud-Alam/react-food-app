@@ -1,25 +1,21 @@
-import { Link } from "react-router-dom";
-import { Col, Container, Row } from "react-bootstrap";
 import aboutData from "../../data/aboutData";
+import { aboutSectionContent } from "../../data/contentData";
+import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function AboutSection() {
+  const { heading, description, path, buttonText } = aboutSectionContent;
+
   return (
     <>
       <section className="about_section">
         <Container>
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
-              <h2>The burger tastes better when you eat it with your family</h2>
-              <p>
-                At Tasty Burger, we’re all about bold flavors and high-quality
-                ingredients. Every bite is crafted with care, from our perfectly
-                seasoned patties to our fresh, locally sourced toppings. Whether
-                you're craving something classic or looking for a new favorite,
-                we promise a burger experience that’s nothing short of
-                delicious.
-              </p>
-              <Link to="/" className="btn order_now btn_red">
-                Explore Full Menu
+              <h2>{heading}</h2>
+              <p>{description}</p>
+              <Link to={path} className="btn order_now btn_red">
+                {buttonText}
               </Link>
             </Col>
           </Row>
@@ -39,7 +35,7 @@ function AboutSection() {
                     />
                   </div>
                   <h4>{cardData.title}</h4>
-                  <p>{cardData.description}aaa</p>
+                  <p>{cardData.description}</p>
                 </div>
               </Col>
             ))}
