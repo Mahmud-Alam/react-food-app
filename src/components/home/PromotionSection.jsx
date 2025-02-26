@@ -20,7 +20,8 @@ function PromotionSection() {
                 in life are made even better with great food!
               </p>
               <p>
-                Enjoy the perfect burger experience with us! Here's what makes our burgers special:
+                Enjoy the perfect burger experience with us! Here's what makes
+                our burgers special:
               </p>
               <ul>
                 <li>
@@ -45,8 +46,7 @@ function PromotionSection() {
       </section>
 
       {/* Backgroud Parallax Effect on Scrolling */}
-      <section className="bg_parallax_scroll">
-      </section>
+      <section className="bg_parallax_scroll"></section>
     </>
   );
 }

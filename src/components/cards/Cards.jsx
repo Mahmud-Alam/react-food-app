@@ -1,7 +1,14 @@
-import { Col, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { Col, Card, Button } from "react-bootstrap";
 
-function Cards({ image, title, description, rating, price, renderRatingIcons }) {
+function Cards({
+  image,
+  title,
+  description,
+  rating,
+  price,
+  renderRatingIcons,
+}) {
   return (
     <Col sm={6} lg={4} xl={3} className="mb-4">
       <Card className="overflow-hidden">
@@ -9,7 +16,6 @@ function Cards({ image, title, description, rating, price, renderRatingIcons }) 
           <Card.Img variant="top" src={image} />
         </div>
         <Card.Body>
-
           <div className="d-flex align-items-center justify-content-between">
             <div className="item_rating">{renderRatingIcons(rating)}</div>
             <div className="wishlist">
@@ -24,8 +30,8 @@ function Cards({ image, title, description, rating, price, renderRatingIcons }) 
             </div>
             <div className="add_to_card">
               <Link to="/">
-              <i className="bi bi-bag me-2"></i>
-              Add To Cart
+                <i className="bi bi-bag me-2"></i>
+                Add To Cart
               </Link>
             </div>
           </div>

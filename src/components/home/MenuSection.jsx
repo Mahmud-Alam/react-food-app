@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
-import Cards from "../../components/Cards.jsx";
+import Cards from "../../components/cards/Cards.jsx";
 import Image1 from "../../assets/menu/burger-11.jpg";
 import Image2 from "../../assets/menu/burger-12.jpg";
 import Image3 from "../../assets/menu/burger-13.jpg";
@@ -8,7 +9,6 @@ import Image5 from "../../assets/menu/burger-15.jpg";
 import Image6 from "../../assets/menu/burger-16.jpg";
 import Image7 from "../../assets/menu/burger-17.jpg";
 import Image8 from "../../assets/menu/burger-18.jpg";
-import { Link } from "react-router-dom";
 
 const burgerData = [
   {
@@ -77,26 +77,23 @@ const burgerData = [
   },
 ];
 
-
 // Rating logical data
 const renderRatingIcons = (rating) => {
   const stars = [];
 
-  for(let i = 0; i < 5; i++) {
-    if(rating > 0.5){
+  for (let i = 0; i < 5; i++) {
+    if (rating > 0.5) {
       stars.push(<i key={i} className="bi bi-star-fill"></i>);
       rating--;
-    }else if(rating > 0 && rating < 1){
+    } else if (rating > 0 && rating < 1) {
       stars.push(<i key={"half"} className="bi bi-star-half"></i>);
       rating--;
-    }else{
+    } else {
       stars.push(<i key={`empty${i}`} className="bi bi-star"></i>);
     }
   }
   return stars;
-}
-
-
+};
 
 function MenuSection() {
   return (
@@ -108,8 +105,8 @@ function MenuSection() {
             <p className="para">
               Get ready for a wild ride of flavors! Our crazy burgers are loaded
               with juicy patties, bold toppings, and irresistible sauces, all
-              stacked on a perfectly toasted bun. Whether you like it cheesy, or extra meaty, we’ve got a burger that will blow your
-              mind!
+              stacked on a perfectly toasted bun. Whether you like it cheesy, or
+              extra meaty, we’ve got a burger that will blow your mind!
             </p>
           </Col>
         </Row>
