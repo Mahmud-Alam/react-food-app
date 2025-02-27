@@ -1,5 +1,8 @@
 import heroBurger from "../assets/hero/hero-2.png";
 import promotionImage from "../assets/promotion/pro.png";
+import ios from "../assets/shop/appstore.png";
+import android from "../assets/shop/googleplay.png";
+import downloadImage from "../assets/shop/e-shop.png";
 
 export const aboutSectionContent = {
   heading: "The burger tastes better when you eat it with your family",
@@ -54,9 +57,9 @@ export const shopSectionContent = {
   heading2: "save up to 20%",
   description:
     "Enjoy your favorite burgers anytime, anywhere! Download our mobile app today and get exclusive deals, easy ordering, and a special 20% discount on your first purchase. Deliciousness is just a tap away!",
-  images: {
-    ios: "../../assets/shop/appstore.png",
-    android: "../../assets/shop/googleplay.png",
-    download: "../../assets/shop/e-shop.png",
-  },
+  storeImages: [
+    { key: "ios", src: ios, alt: "iOS App Store", path: "/" },
+    { key: "android", src: android, alt: "Google Play Store", path: "/" },
+  ],
+  downloadImages: { key: "download", src: downloadImage, alt: "Download App", path: "/" }
 };

@@ -1,37 +1,30 @@
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
-import IOS from "../../assets/shop/appstore.png";
-import Android from "../../assets/shop/googleplay.png";
-import DownloadImage from "../../assets/shop/e-shop.png";
+import { shopSectionContent } from "../../data/contentData";
 
 function ShopSection() {
+  const { heading1, heading2, description, storeImages, downloadImages } = shopSectionContent;
   return (
     <>
       <section className="shop_section">
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
-              <h4>Download mobile App and</h4>
-              <h2>save up to 20%</h2>
-              <p>
-                Enjoy your favorite burgers anytime, anywhere! Download our
-                mobile app today and get exclusive deals, easy ordering, and a
-                special 20% discount on your first purchase. Deliciousness is
-                just a tap away!
-              </p>
-              <Link to="">
-                <img src={IOS} alt="ios" className="img-fluid me-3 store" />
-              </Link>
-              <Link to="">
-                <img
-                  src={Android}
-                  alt="android"
-                  className="img-fluid me-3 store"
-                />
-              </Link>
+              <h4>{heading1}</h4>
+              <h2>{heading2}</h2>
+              <p>{description}</p>
+              {storeImages.map(({ id, src, alt, path }) => (
+                <Link key={id} to={path}>
+                  <img src={src} alt={alt} className="img-fluid me-3 store" />
+                </Link>
+              ))}
             </Col>
             <Col lg={6}>
-              <img src={DownloadImage} alt="e-shop" className="img-fluid" />
+              <img
+                src={downloadImages.src}
+                alt={downloadImages.alt}
+                className="img-fluid"
+              />
             </Col>
           </Row>
         </Container>
