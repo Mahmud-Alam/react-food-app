@@ -61,5 +61,16 @@ export const shopSectionContent = {
     { key: "ios", src: ios, alt: "iOS App Store", path: "/" },
     { key: "android", src: android, alt: "Google Play Store", path: "/" },
   ],
-  downloadImages: { key: "download", src: downloadImage, alt: "Download App", path: "/" }
+  downloadImages: { key: "download", src: downloadImage, alt: "Download App", path: "/"},
 };
+
+export const brandSectionImg = [
+  { id: 1, src: "/src/assets/brands/brand-11.png", alt: "brand-1" },
+  { id: 2, src: "/src/assets/brands/brand-12.png", alt: "brand-2" },
+  { id: 3, src: "/src/assets/brands/brand-13.png", alt: "brand-3" },
+  { id: 4, src: "/src/assets/brands/brand-14.png", alt: "brand-4" },
+  { id: 5, src: "/src/assets/brands/brand-15.png", alt: "brand-5" },
+  { id: 6, src: "/src/assets/brands/brand-16.png", alt: "brand-6" },
+  { id: 7, src: "/src/assets/brands/brand-17.png", alt: "brand-7" },
+  { id: 8, src: "/src/assets/brands/brand-18.png", alt: "brand-8" },
+];
