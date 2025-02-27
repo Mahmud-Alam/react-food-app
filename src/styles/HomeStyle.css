@@ -1,7 +1,7 @@
 /* Hero section */
 .hero_section {
   position: relative;
-  background: url("../assets/hero/hero-1.jpg") no-repeat center center;
+  background: url("/src/assets/hero/hero-1.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 170px;
@@ -9,8 +9,7 @@
 }
 
 .hero_section .price_badge {
-  background: url("../assets/hero/price-badge-yellow.png") no-repeat center
-    center;
+  background: url("/src/assets/hero/price-badge-yellow.png") no-repeat center center;
   background-size: cover;
   position: absolute;
   top: -20px;
@@ -63,7 +62,7 @@
 .about_section {
   padding-top: 80px;
   padding-bottom: 300px;
-  background: url("../assets/about/about-1.jpg") no-repeat center center;
+  background: url("/src/assets/about/about-1.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
 }
@@ -193,12 +192,12 @@
 }
 
 .menu_section .ads_img1 {
-  background: url("../assets/menu/ads-1.jpg") no-repeat center center;
+  background: url("/src/assets/menu/ads-1.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .menu_section .ads_img2 {
-  background: url("../assets/menu/ads-2.jpg") no-repeat center center;
+  background: url("/src/assets/menu/ads-2.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -241,7 +240,7 @@
 
 /* Backgroud Parallax Effect on Scrolling */
 .bg_parallax_scroll {
-  background: url("../assets/parallax/bg.jpg") no-repeat center center;
+  background: url("/src/assets/parallax/bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -344,12 +343,52 @@
   margin-bottom: 2rem;
 }
 
+/* Contact Section */
+.contact_section{
+  background: url("/src/assets/footer/banner-1.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.contact_section h4{
+  font-size: 2.375rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.contact_section h2{
+  font-size: 4.5rem;
+  margin-bottom: 25px;
+}
+
+.contact_section p{
+  width: 70%;
+  margin: 0 auto 30px;
+}
+
+.contact_section a{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+
+
 /* Media Query Mobile Devices */
 
 @media (max-width: 1200px) {
   /* Promotion Section */
   .promotion_section h2 {
     font-size: 2.2rem;
+  }
+
+  /* Contact Section */
+  .contact_section h2{
+    font-size: 3.5rem;
+  }
+  
+  .contact_section p{
+    width: 100%;
   }
 }
 
