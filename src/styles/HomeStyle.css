@@ -110,57 +110,57 @@
   transition: all 500ms ease-in-out;
 }
 
-.menu_section h2{
+.menu_section h2 {
   font-size: 3.5rem;
   color: var(--light-red);
 }
 
-.menu_section .para{
+.menu_section .para {
   color: var(--grey);
   padding: 10px 100px;
   font-size: 19px;
 }
 
-.menu_section .item_rating i{
+.menu_section .item_rating i {
   color: var(--yellow);
   padding-right: 5px;
 }
 
-.menu_section .wishlist i{
+.menu_section .wishlist i {
   color: var(--grey);
   font-size: 20px;
   cursor: pointer;
 }
 
-.menu_section .wishlist i:hover{
+.menu_section .wishlist i:hover {
   color: var(--light-red);
 }
 
-.menu_section .card-title{
+.menu_section .card-title {
   font-family: var(--oswald-font);
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
-.menu_section .card-text{
+.menu_section .card-text {
   color: var(--grey);
   font-size: 15px;
 }
 
-.menu_section .menu_price{
+.menu_section .menu_price {
   background: var(--bg-coffee);
   display: inline-block;
   padding: 7px 12px;
   border-radius: 4px;
 }
 
-.menu_section .menu_price h5{
+.menu_section .menu_price h5 {
   color: var(--yellow);
   font-size: 1rem;
 }
 
-.menu_section .add_to_card a{
+.menu_section .add_to_card a {
   background: var(--yellow);
   display: inline-block;
   font-size: 1rem;
@@ -177,43 +177,43 @@
   transition: all 500ms ease-in-out;
 }
 
-.menu_section .card:hover .card-img-top{
+.menu_section .card:hover .card-img-top {
   transform: scale(1.1);
 }
 
-.menu_section .card:hover .add_to_card a{
+.menu_section .card:hover .add_to_card a {
   transform: translateY(0);
   opacity: 1;
 }
 
-.menu_section .ads_box{
+.menu_section .ads_box {
   text-align: right;
   padding: 80px 35px 50px;
   border-radius: 6px;
 }
 
-.menu_section .ads_img1{
+.menu_section .ads_img1 {
   background: url("../assets/menu/ads-1.jpg") no-repeat center center;
   background-size: cover;
 }
 
-.menu_section .ads_img2{
+.menu_section .ads_img2 {
   background: url("../assets/menu/ads-2.jpg") no-repeat center center;
   background-size: cover;
 }
 
-.menu_section .ads_box h4{
+.menu_section .ads_box h4 {
   font-size: 2.25rem;
   font-weight: 300;
   color: var(--brown);
 }
 
-.menu_section .ads_box h5{
+.menu_section .ads_box h5 {
   font-size: 2.375rem;
   color: var(--brown);
 }
 
-.menu_section .ads_box a{
+.menu_section .ads_box a {
   margin-top: 15px;
   font-size: 18px;
 }
@@ -225,22 +225,22 @@
   background: var(--light-grey);
 }
 
-.promotion_section h2{
+.promotion_section h2 {
   font-size: 3.25rem;
   margin-bottom: 25px;
 }
 
-.promotion_section p{
+.promotion_section p {
   font-size: 1.12rem;
 }
 
-.promotion_section ul{
+.promotion_section ul {
   padding-left: 15px;
   list-style: none;
 }
 
 /* Backgroud Parallax Effect on Scrolling */
-.bg_parallax_scroll{
+.bg_parallax_scroll {
   background: url("../assets/parallax/bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
@@ -249,93 +249,115 @@
 }
 
 /* Shop Section */
-.shop_section{
+.shop_section {
   padding: 100px 0 0;
   background: var(--yellow);
 }
 
-.shop_section h4{
+.shop_section h4 {
   font-size: 2.375rem;
   font-weight: 400;
   color: var(--bg-coffee);
 }
 
-.shop_section h2{
+.shop_section h2 {
   font-size: 4.5rem;
   font-weight: 700;
   letter-spacing: -1px;
   color: var(--bg-coffee);
 }
 
-.shop_section p{
+.shop_section p {
   font-size: 1.125rem;
   padding-right: 10px;
   color: var(--bg-coffee);
   margin-bottom: 40px;
 }
 
-.shop_section .store{
+.shop_section .store {
   max-width: 40%;
 }
 
-.shop_section .e_shop{
+.shop_section .e_shop {
   text-align: center;
 }
 
 /* Brand Section */
-.brand_section{
+.brand_section {
   padding: 70px 0 40px;
   background: var(--light-grey);
   overflow: hidden;
 }
 
-.brand_section .brand_img{
+.brand_section .brand_img {
   width: 180px;
   height: auto;
 }
 
-.carousel.slide .carousel-inner{
+.carousel.slide .carousel-inner {
   overflow: unset;
 }
 
-.carousel.slide .carousel-inner .carousel-caption{
+.carousel.slide .carousel-inner .carousel-caption {
   position: relative;
   right: unset;
   left: unset;
 }
 
 /* Review Section */
-.review_section{
+.review_section {
   padding: 80px 0 50px;
-  background: url("../assets/blog/reviews.jpg");
+  background: url("/src/assets/blog/reviews.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
+.review_section .user_img img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-bottom: 25px;
+}
+
+.review_section .carousel.slide .carousel-inner .carousel-caption p{
+  font-size: 1.7rem;
+  line-height: 1.45;
+  font-weight: 400;
+  padding: 0 12%;
+  margin-bottom: 25px;
+}
+
+.review_section .carousel.slide .carousel-inner .carousel-caption .item_rating i{
+  color: var(--yellow);
+  padding-right: 5px;
+}
 
 /* Media Query Mobile Devices */
 
 @media (max-width: 1200px) {
   /* Promotion Section */
-  .promotion_section h2{
+  .promotion_section h2 {
     font-size: 2.2rem;
   }
 }
 
 @media (max-width: 992px) {
   /* About Section 2.0 */
-  .about_section h2{
+  .about_section h2 {
     font-size: 2.5rem;
   }
 
-  .about_section p{
+  .about_section p {
     padding: 20px 0;
   }
 
-  .about_box p{
+  .about_box p {
     padding: 0;
   }
 
   /* Parallax Section */
-  .bg_parallax_scroll{
+  .bg_parallax_scroll {
     background-attachment: scroll;
     height: 500px;
   }
@@ -348,24 +370,24 @@
   }
 
   /* Menu section  */
-  .menu_section .para{
+  .menu_section .para {
     padding: 10px 0;
   }
 
   /* Shop Section */
-  .shop_section h4{
+  .shop_section h4 {
     font-size: 1.8rem;
   }
 
-  .shop_section h2{
+  .shop_section h2 {
     font-size: 3.75rem;
   }
 
-  .brand_section{
+  .brand_section {
     padding: 50px 0 10px;
   }
 
-  .brand_section .brand_img{
+  .brand_section .brand_img {
     width: 70px;
     height: auto;
   }
