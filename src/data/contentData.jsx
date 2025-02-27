@@ -1,4 +1,5 @@
 import heroBurger from "../assets/hero/hero-2.png";
+import promotionImage from "../assets/promotion/pro.png";
 
 export const aboutSectionContent = {
   heading: "The burger tastes better when you eat it with your family",
@@ -45,7 +46,7 @@ export const promotionSectionContent = {
     "🥓 Topped with crispy bacon and fresh veggies",
     "🚀 Available for quick delivery, straight to your door",
   ],
-  image: "../../assets/promotion/pro.png",
+  image: promotionImage,
 };
 
 export const shopSectionContent = {
