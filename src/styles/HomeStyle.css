@@ -310,6 +310,7 @@
   background: url("/src/assets/blog/reviews.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .review_section .user_img img {
