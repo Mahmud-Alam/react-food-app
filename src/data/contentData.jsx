@@ -1,9 +1,3 @@
-import heroBurger from "../assets/hero/hero-2.png";
-import promotionImage from "../assets/promotion/pro.png";
-import ios from "../assets/shop/appstore.png";
-import android from "../assets/shop/googleplay.png";
-import downloadImage from "../assets/shop/e-shop.png";
-
 export const aboutSectionContent = {
   heading: "The burger tastes better when you eat it with your family",
   description:
@@ -19,7 +13,7 @@ export const heroSectionContent = {
     "Savor the perfect bite! Our new burger with onion is a juicy, flavor-packed delight, layered with fresh, crispy onions, premium beef, and a melt-in-your-mouth bun. A taste so good, you won’t want to share!",
   text1: "Only",
   text2: "৳450",
-  image: heroBurger,
+  image: "/src/assets/hero/hero-2.png",
   buttonText: "Order Now",
   path: "/",
 };
@@ -49,7 +43,7 @@ export const promotionSectionContent = {
     "🥓 Topped with crispy bacon and fresh veggies",
     "🚀 Available for quick delivery, straight to your door",
   ],
-  image: promotionImage,
+  image: "/src/assets/promotion/pro.png",
 };
 
 export const shopSectionContent = {
@@ -58,10 +52,10 @@ export const shopSectionContent = {
   description:
     "Enjoy your favorite burgers anytime, anywhere! Download our mobile app today and get exclusive deals, easy ordering, and a special 20% discount on your first purchase. Deliciousness is just a tap away!",
   storeImages: [
-    { key: "ios", src: ios, alt: "iOS App Store", path: "/" },
-    { key: "android", src: android, alt: "Google Play Store", path: "/" },
+    { key: "ios", src: "/src/assets/shop/appstore.png", alt: "iOS App Store", path: "/" },
+    { key: "android", src: "/src/assets/shop/googleplay.png", alt: "Google Play Store", path: "/" },
   ],
-  downloadImages: { key: "download", src: downloadImage, alt: "Download App", path: "/"},
+  downloadImages: { key: "download", src: "/src//assets/shop/e-shop.png", alt: "Download App", path: "/"},
 };
 
 export const brandSectionImg = [
