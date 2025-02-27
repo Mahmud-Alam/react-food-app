@@ -1,5 +1,6 @@
 import { Container, Row, Carousel } from "react-bootstrap";
 import reviewData from "../../data/reviewData";
+import Rating from "../../utils/Rating";
 
 function ReviewSection() {
   return (
@@ -18,7 +19,7 @@ function ReviewSection() {
                     />
                   </div>
                   <p>{`"${userReview.review}"`}</p>
-                  <div className="item_rating mb-2"></div>
+                  <div className="item_rating mb-2"><Rating rating={userReview.rating} /></div>
                   <h5>By {userReview.name}</h5>
                 </Carousel.Caption>
               </Carousel.Item>
