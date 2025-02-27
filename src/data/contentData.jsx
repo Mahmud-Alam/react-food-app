@@ -52,10 +52,25 @@ export const shopSectionContent = {
   description:
     "Enjoy your favorite burgers anytime, anywhere! Download our mobile app today and get exclusive deals, easy ordering, and a special 20% discount on your first purchase. Deliciousness is just a tap away!",
   storeImages: [
-    { key: "ios", src: "/src/assets/shop/appstore.png", alt: "iOS App Store", path: "/" },
-    { key: "android", src: "/src/assets/shop/googleplay.png", alt: "Google Play Store", path: "/" },
+    {
+      key: "ios",
+      src: "/src/assets/shop/appstore.png",
+      alt: "iOS App Store",
+      path: "/",
+    },
+    {
+      key: "android",
+      src: "/src/assets/shop/googleplay.png",
+      alt: "Google Play Store",
+      path: "/",
+    },
   ],
-  downloadImages: { key: "download", src: "/src//assets/shop/e-shop.png", alt: "Download App", path: "/"},
+  downloadImages: {
+    key: "download",
+    src: "/src//assets/shop/e-shop.png",
+    alt: "Download App",
+    path: "/",
+  },
 };
 
 export const brandSectionImg = [
@@ -68,3 +83,12 @@ export const brandSectionImg = [
   { id: 7, src: "/src/assets/brands/brand-17.png", alt: "brand-7" },
   { id: 8, src: "/src/assets/brands/brand-18.png", alt: "brand-8" },
 ];
+
+export const contactSectionContent = {
+  heading1: "We Guarantee",
+  heading2: "30 Minutes Delivery!",
+  description:
+    "Craving something delicious? We guarantee your meal will be at your door in 30 minutes or less! Order now and enjoy a hot, fresh burger experience that’s just a few clicks away.",
+  buttonText: "Order Now",
+  path: "/",
+};
