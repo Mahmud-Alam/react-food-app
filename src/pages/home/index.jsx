@@ -7,6 +7,7 @@ import ShopSection from "../../components/home/ShopSection"
 import BrandSection from "../../components/home/BrandSection"
 import "../../styles/HomeStyle.css"
 import ReviewSection from "../../components/home/ReviewSection"
+import ContactSection from "../../components/home/ContactSection"
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <ShopSection/>
       <BrandSection/>
       <ReviewSection/>
+      <ContactSection/>
     </Layout>
   )
 }
