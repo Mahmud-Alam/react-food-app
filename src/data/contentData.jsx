@@ -122,3 +122,14 @@ export const footerSectionContent = [
     ],
   },
 ];
+
+export const copyrightSectionContent = {
+  year: "2025",
+  owner: "Mahmud Alam",
+  ownerUrl: "https://mahmudalam.com/",
+  links: [
+    { text: "About Us", path: "/" },
+    { text: "Terms Of Use", path: "/" },
+    { text: "Privacy Policy", path: "/" },
+  ],
+};
