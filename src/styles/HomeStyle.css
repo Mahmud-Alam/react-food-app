@@ -372,6 +372,64 @@
   font-weight: 700;
 }
 
+/* Footer Section */
+footer{
+  padding-top: 80px;
+}
+
+footer h5{
+  color: var(--light-black);
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+footer p{
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+footer .calling{
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--yellow);
+}
+
+footer ul li{
+  font-size: 1.4rem;
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Copyright Section */
+.copy_right{
+  border-top: 1px solid var(--light-grey-2);
+  margin-top: 60px !important;
+  padding: 20px 0;
+}
+
+.copy_right ul li span{
+  color: var(--light-red);
+  font-weight: 600;
+}
+
+.copy_right ul li{
+  font-size: 1rem;
+  padding: 0 10px;
+  position: relative;
+}
+
+.copy_right ul li::after{
+  content: "|";
+  padding-left: 11px;
+  position: absolute;
+  top: -1px;
+  right: -10px;
+}
+
+.copy_right ul li:last-child:last-child::after{
+  display: none;
+}
 
 
 /* Media Query Mobile Devices */
