@@ -1,14 +1,15 @@
+import { forwardRef } from "react";
 import aboutData from "../../data/aboutData";
 import { aboutSectionContent } from "../../data/contentData";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-function AboutSection() {
+const AboutSection = forwardRef((props, ref) => {
   const { heading, description, path, buttonText } = aboutSectionContent;
 
   return (
     <>
-      <section className="about_section">
+      <section ref={ref} id="about" className="about_section">
         <Container>
           <Row>
             <Col lg={{ span: 8, offset: 2 }} className="text-center">
@@ -44,6 +45,6 @@ function AboutSection() {
       </section>
     </>
   );
-}
+});
 
 export default AboutSection;

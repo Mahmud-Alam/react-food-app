@@ -4,8 +4,9 @@ import Cards from "../../components/cards/Cards";
 import burgerData from "../../data/burgerData";
 import Rating from "../../utils/Rating";
 import { menuSectionContent } from "../../data/contentData";
+import { forwardRef } from "react";
 
-function MenuSection() {
+const MenuSection = forwardRef((props, ref) => {
   const {
     heading,
     description,
@@ -18,7 +19,7 @@ function MenuSection() {
   } = menuSectionContent;
 
   return (
-    <section className="menu_section">
+    <section ref={ref} id="menu" className="menu_section">
       <Container>
         <Row>
           <Col lg={{ span: 8, offset: 2 }} className="text-center mb-5">
@@ -64,6 +65,6 @@ function MenuSection() {
       </Container>
     </section>
   );
-}
+});
 
 export default MenuSection;

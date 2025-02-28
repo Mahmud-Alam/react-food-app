@@ -1,12 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { contactSectionContent } from "../../data/contentData";
+import { forwardRef } from "react";
 
-function ContactSection() {
+const ContactSection = forwardRef((props, ref) => {
   const { heading1, heading2, description, buttonText, path } =
     contactSectionContent;
   return (
-    <section className="contact_section">
+    <section ref={ref} id="contact" className="contact_section">
       <Container>
         <Row className="justify-content-center">
           <Col sm={8} className="text-center">
@@ -21,6 +22,6 @@ function ContactSection() {
       </Container>
     </section>
   );
-}
+});
 
 export default ContactSection;

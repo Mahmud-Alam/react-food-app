@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { Col, Container, Row } from "react-bootstrap";
 import { shopSectionContent } from "../../data/contentData";
+import { forwardRef } from "react";
 
-function ShopSection() {
+const ShopSection = forwardRef((props, ref) => {
   const { heading1, heading2, description, storeImages, downloadImages } = shopSectionContent;
   return (
     <>
-      <section className="shop_section">
+      <section ref={ref} id="shop" className="shop_section">
         <Container>
           <Row className="align-items-center">
             <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
@@ -31,6 +32,6 @@ function ShopSection() {
       </section>
     </>
   );
-}
+});
 
 export default ShopSection;

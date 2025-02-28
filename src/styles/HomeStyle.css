@@ -60,7 +60,7 @@
 
 /* About Section */
 .about_section {
-  padding-top: 80px;
+  padding-top: 180px;
   padding-bottom: 300px;
   background: url("/src/assets/about/about-1.jpg") no-repeat center center;
   background-size: cover;
@@ -101,7 +101,7 @@
 
 /* Menu Section */
 .menu_section {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
@@ -249,7 +249,7 @@
 
 /* Shop Section */
 .shop_section {
-  padding: 100px 0 0;
+  padding: 150px 0 0;
   background: var(--yellow);
 }
 
@@ -347,7 +347,7 @@
 .contact_section{
   background: url("/src/assets/footer/banner-1.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
 }
 
