@@ -109,7 +109,7 @@ export const footerSectionContent = [
   {
     heading: "Order Now",
     descriptions: ["For fresh and delicious foods"],
-    links: { text: "Order Now", path: "/" },
+    links: { text: "+880-1234-567890", path: "/" },
   },
   {
     heading: "Follow Us",

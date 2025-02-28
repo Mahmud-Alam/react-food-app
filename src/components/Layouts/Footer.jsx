@@ -39,7 +39,7 @@ function Footer() {
         </Row>
 
         {/* Copyright Section */}
-        <CopyrightSection/>
+        <CopyrightSection />
       </Container>
     </footer>
   );
