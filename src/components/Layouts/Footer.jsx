@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { footerSectionContent } from "../../data/contentData";
+import CopyrightSection from "../home/CopyrightSection";
 
 function Footer() {
   return (
@@ -36,6 +37,9 @@ function Footer() {
             </Col>
           ))}
         </Row>
+
+        {/* Copyright Section */}
+        <CopyrightSection/>
       </Container>
     </footer>
   );
