@@ -92,3 +92,33 @@ export const contactSectionContent = {
   buttonText: "Order Now",
   path: "/",
 };
+
+export const footerSectionContent = [
+  {
+    heading: "Location",
+    descriptions: ["MetroStation Road", "Mirpur 10, Dhaka", "Bangladesh"],
+  },
+  {
+    heading: "Working Hours",
+    descriptions: [
+      "Sun-Thu: 9:00AM - 10:00PM",
+      "Friday: 2:00PM - 10:00PM",
+      "Saturday: 9:00AM - 9:00PM",
+    ],
+  },
+  {
+    heading: "Order Now",
+    descriptions: ["For fresh and delicious foods"],
+    links: { text: "Order Now", path: "/" },
+  },
+  {
+    heading: "Follow Us",
+    descriptions: ["Our Social Media Handles"],
+    socialLinks: [
+      { icon: "bi bi-globe", path: "/" },
+      { icon: "bi bi-facebook", path: "/" },
+      { icon: "bi bi-twitter", path: "/" },
+      { icon: "bi bi-instagram", path: "/" },
+    ],
+  },
+];
