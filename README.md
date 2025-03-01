@@ -140,7 +140,7 @@ npm run lint
 ## 🌐 Deployment on Vercel
 The project is deployed on **Vercel** for fast and reliable hosting.
 
-🔗 **Live Demo:** <a href="https://food-app-mahmud.vercel.app/" target="_blank">Tasty Burger by Mahmud Alam</a>
+🔗 **Live Demo:** [Tasty Burger by Mahmud Alam](https://food-app-mahmud.vercel.app/)
 
 ---
 
