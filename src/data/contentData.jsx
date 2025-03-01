@@ -127,6 +127,7 @@ export const copyrightSectionContent = {
   year: "2025",
   owner: "Mahmud Alam",
   ownerUrl: "https://mahmudalam.com/",
+  reserveText: "All Rights Reserved",
   links: [
     { text: "About Us", path: "/" },
     { text: "Terms Of Use", path: "/" },
