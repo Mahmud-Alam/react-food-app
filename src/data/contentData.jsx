@@ -13,7 +13,7 @@ export const heroSectionContent = {
     "Savor the perfect bite! Our new burger with onion is a juicy, flavor-packed delight, layered with fresh, crispy onions, premium beef, and a melt-in-your-mouth bun. A taste so good, you won’t want to share!",
   text1: "Only",
   text2: "৳450",
-  image: "/src/assets/hero/hero-2.png",
+  image: "/assets/hero/hero-2.png",
   buttonText: "Order Now",
   path: "/",
 };
@@ -43,7 +43,7 @@ export const promotionSectionContent = {
     "🥓 Topped with crispy bacon and fresh veggies",
     "🚀 Available for quick delivery, straight to your door",
   ],
-  image: "/src/assets/promotion/pro.png",
+  image: "/assets/promotion/pro.png",
 };
 
 export const shopSectionContent = {
@@ -54,34 +54,34 @@ export const shopSectionContent = {
   storeImages: [
     {
       key: "ios",
-      src: "/src/assets/shop/appstore.png",
+      src: "/assets/shop/appstore.png",
       alt: "iOS App Store",
       path: "/",
     },
     {
       key: "android",
-      src: "/src/assets/shop/googleplay.png",
+      src: "/assets/shop/googleplay.png",
       alt: "Google Play Store",
       path: "/",
     },
   ],
   downloadImages: {
     key: "download",
-    src: "/src//assets/shop/e-shop.png",
+    src: "/assets/shop/e-shop.png",
     alt: "Download App",
     path: "/",
   },
 };
 
 export const brandSectionImg = [
-  { id: 1, src: "/src/assets/brands/brand-11.png", alt: "brand-1" },
-  { id: 2, src: "/src/assets/brands/brand-12.png", alt: "brand-2" },
-  { id: 3, src: "/src/assets/brands/brand-13.png", alt: "brand-3" },
-  { id: 4, src: "/src/assets/brands/brand-14.png", alt: "brand-4" },
-  { id: 5, src: "/src/assets/brands/brand-15.png", alt: "brand-5" },
-  { id: 6, src: "/src/assets/brands/brand-16.png", alt: "brand-6" },
-  { id: 7, src: "/src/assets/brands/brand-17.png", alt: "brand-7" },
-  { id: 8, src: "/src/assets/brands/brand-18.png", alt: "brand-8" },
+  { id: 1, src: "/assets/brands/brand-11.png", alt: "brand-1" },
+  { id: 2, src: "/assets/brands/brand-12.png", alt: "brand-2" },
+  { id: 3, src: "/assets/brands/brand-13.png", alt: "brand-3" },
+  { id: 4, src: "/assets/brands/brand-14.png", alt: "brand-4" },
+  { id: 5, src: "/assets/brands/brand-15.png", alt: "brand-5" },
+  { id: 6, src: "/assets/brands/brand-16.png", alt: "brand-6" },
+  { id: 7, src: "/assets/brands/brand-17.png", alt: "brand-7" },
+  { id: 8, src: "/assets/brands/brand-18.png", alt: "brand-8" },
 ];
 
 export const contactSectionContent = {

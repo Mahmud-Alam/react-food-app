@@ -1,7 +1,7 @@
 /* Hero section */
 .hero_section {
   position: relative;
-  background: url("/src/assets/hero/hero-1.jpg") no-repeat center center;
+  background: url("/assets/hero/hero-1.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 170px;
@@ -9,7 +9,7 @@
 }
 
 .hero_section .price_badge {
-  background: url("/src/assets/hero/price-badge-yellow.png") no-repeat center center;
+  background: url("/assets/hero/price-badge-yellow.png") no-repeat center center;
   background-size: cover;
   position: absolute;
   top: -20px;
@@ -62,7 +62,7 @@
 .about_section {
   padding-top: 180px;
   padding-bottom: 300px;
-  background: url("/src/assets/about/about-1.jpg") no-repeat center center;
+  background: url("/assets/about/about-1.jpg") no-repeat center center;
   background-size: cover;
   width: 100%;
 }
@@ -192,12 +192,12 @@
 }
 
 .menu_section .ads_img1 {
-  background: url("/src/assets/menu/ads-1.jpg") no-repeat center center;
+  background: url("/assets/menu/ads-1.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .menu_section .ads_img2 {
-  background: url("/src/assets/menu/ads-2.jpg") no-repeat center center;
+  background: url("/assets/menu/ads-2.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -240,7 +240,7 @@
 
 /* Backgroud Parallax Effect on Scrolling */
 .bg_parallax_scroll {
-  background: url("/src/assets/parallax/bg.jpg") no-repeat center center;
+  background: url("/assets/parallax/bg.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
@@ -306,7 +306,7 @@
 /* Review Section */
 .review_section {
   padding: 80px 0 50px;
-  background: url("/src/assets/blog/reviews.jpg") no-repeat center center;
+  background: url("/assets/blog/reviews.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden;
@@ -345,7 +345,7 @@
 
 /* Contact Section */
 .contact_section{
-  background: url("/src/assets/footer/banner-1.jpg") no-repeat center center;
+  background: url("/assets/footer/banner-1.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 100px;
