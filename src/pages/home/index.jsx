@@ -1,14 +1,14 @@
 import { useRef } from "react";
-import Layout from "../../components/layouts/Layout";
-import HeroSection from "../../components/home/HeroSection";
-import AboutSection from "../../components/home/AboutSection";
-import MenuSection from "../../components/home/MenuSection";
-import PromotionSection from "../../components/home/PromotionSection";
-import ShopSection from "../../components/home/ShopSection";
-import BrandSection from "../../components/home/BrandSection";
-import ReviewSection from "../../components/home/ReviewSection";
-import ContactSection from "../../components/home/ContactSection";
-import "../../styles/HomeStyle.css";
+import Layout from "/src/components/layouts/Layout";
+import HeroSection from "/src/components/home/HeroSection";
+import AboutSection from "/src/components/home/AboutSection";
+import MenuSection from "/src/components/home/MenuSection";
+import PromotionSection from "/src/components/home/PromotionSection";
+import ShopSection from "/src/components/home/ShopSection";
+import BrandSection from "/src/components/home/BrandSection";
+import ReviewSection from "/src/components/home/ReviewSection";
+import ContactSection from "/src/components/home/ContactSection";
+import "/src/styles/HomeStyle.css";
 
 function Home() {
   const aboutRef = useRef(null);
