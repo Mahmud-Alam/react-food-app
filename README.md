@@ -18,10 +18,41 @@ Tasty Burger is a modern food ordering web application built with React. It prov
 
 ---
 
+## 📸 Project Screenshots
+
+### Home Page Hero Section
+Here’s a preview of the **Hero Section** that welcomes users to the Tasty Burger experience. It showcases the branding and sets the tone for the entire site:
+
+![Hero Section](assets/readme/hero.png)
+
+### Menu Section
+DEMO: Take a look at our delicious menu with various food options:
+
+![Menu 1](assets/readme/menu-01.png)  
+
+When you hover over any menu card, the 'Add to Cart' button smoothly slides up from the bottom:
+![Menu 2](assets/readme/menu-02.png)
+
+### Shop Section
+DEMO: Explore our online store and mobile app where you can easily place your order:
+
+![Shop Section](assets/readme/shop.png)
+
+### Reviews Section
+DEMO: Read feedback from our happy customers who loved the food:
+
+![Reviews](assets/readme/review.png)
+
+### Contact Section
+DEMO: Here’s a preview of the Contact section where users can reach out for any inquiries:
+
+![Contact Section](assets/readme/contact.png)
+
+---
+
 ## 🏗️ Project Structure
 ```
 src/
- ├── assets/
  ├── components/
  │   ├── cards/
  │   │   ├── Cards.jsx
@@ -103,6 +134,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+---
+
+## 🌐 Deployment on Vercel
+The project is deployed on **Vercel** for fast and reliable hosting.
+
+🔗 **Live Demo:** [Tasty Burger by Mahmud Alam](https://food-app-mahmud.vercel.app/)
 
 ---
 
