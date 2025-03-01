@@ -1,16 +1,7 @@
-import Image1 from "../assets/menu/burger-11.jpg";
-import Image2 from "../assets/menu/burger-12.jpg";
-import Image3 from "../assets/menu/burger-13.jpg";
-import Image4 from "../assets/menu/burger-14.jpg";
-import Image5 from "../assets/menu/burger-15.jpg";
-import Image6 from "../assets/menu/burger-16.jpg";
-import Image7 from "../assets/menu/burger-17.jpg";
-import Image8 from "../assets/menu/burger-18.jpg";
-
 const burgerData = [
   {
     id: "0001",
-    image: Image1,
+    image: "/src/assets/menu/burger-11.jpg",
     title: "Crispy Chicken",
     description: "Chicken breast, chilli sauce, tomatoes, pickles, coleslaw",
     rating: 5,
@@ -18,7 +9,7 @@ const burgerData = [
   },
   {
     id: "0002",
-    image: Image2,
+    image: "/src/assets/menu/burger-12.jpg",
     title: "Ultimate Bacon",
     description: "House patty, cheddar cheese, bacon, onion, mustard",
     rating: 4.5,
@@ -26,7 +17,7 @@ const burgerData = [
   },
   {
     id: "0003",
-    image: Image3,
+    image: "/src/assets/menu/burger-13.jpg",
     title: "Black Sheep",
     description: "American cheese, tomato relish, avocado, lettuce, red onion",
     rating: 4,
@@ -34,7 +25,7 @@ const burgerData = [
   },
   {
     id: "0004",
-    image: Image4,
+    image: "/src/assets/menu/burger-14.jpg",
     title: "Vegan Burger",
     description: "House patty, cheddar cheese, bacon, onion, mustard",
     rating: 3.5,
@@ -42,7 +33,7 @@ const burgerData = [
   },
   {
     id: "0005",
-    image: Image5,
+    image: "/src/assets/menu/burger-15.jpg",
     title: "Double Burger",
     description: "2 patties, cheddar cheese, mustard, pickles, tomatoes",
     rating: 3.0,
@@ -50,7 +41,7 @@ const burgerData = [
   },
   {
     id: "0006",
-    image: Image6,
+    image: "/src/assets/menu/burger-16.jpg",
     title: "Turkey Burger",
     description: "Turkey, cheddar cheese, onion, lettuce, tomatoes, pickles",
     rating: 3,
@@ -58,7 +49,7 @@ const burgerData = [
   },
   {
     id: "0007",
-    image: Image7,
+    image: "/src/assets/menu/burger-17.jpg",
     title: "Smokey House",
     description: "patty, cheddar cheese, onion, lettuce, tomatoes, pickles",
     rating: 2.5,
@@ -66,7 +57,7 @@ const burgerData = [
   },
   {
     id: "0008",
-    image: Image8,
+    image: "/src/assets/menu/burger-18.jpg",
     title: "Classic Burger",
     description: "cheddar cheese, ketchup, mustard, pickles, onion",
     rating: 2.0,
