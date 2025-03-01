@@ -134,8 +134,8 @@ npm run lint
 
 ## 🏆 Author
 **Mahmud Alam**  
-Portfolio Website: [Mahmud Alam](https://mahmudalam.com/)
-📧 mahmudalam.official@gmail.com
+- Portfolio Website: [Mahmud Alam](https://mahmudalam.com/)
+- 📧 mahmudalam.official@gmail.com
 
 ---
 
